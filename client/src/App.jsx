@@ -28,6 +28,7 @@ import AdminBookings from './pages/admin/AdminBookings';
 import AdminArtists from './pages/admin/AdminArtists';
 import AdminUsers from './pages/admin/AdminUsers';
 import AdminReviews from './pages/admin/AdminReviews';
+import AdminReports from './pages/admin/AdminReports';
 
 // Artist imports
 import ArtistLayout from './components/ArtistLayout';
@@ -51,6 +52,7 @@ function App() {
           <Route path="artists" element={<AdminArtists />} />
           <Route path="users" element={<AdminUsers />} />
           <Route path="reviews" element={<AdminReviews />} />
+          <Route path="reports" element={<AdminReports />} />
         </Route>
 
         {/* Artist Routes with their own layout */}

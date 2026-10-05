@@ -1,6 +1,6 @@
 import { Outlet, Navigate, Link, useLocation } from 'react-router-dom';
 import { Container, Row, Col, Nav, Navbar as BootstrapNavbar, Button } from 'react-bootstrap';
-import { FiHome, FiShoppingBag, FiUsers, FiCalendar, FiLogOut, FiMenu, FiUser, FiStar } from 'react-icons/fi';
+import { FiHome, FiShoppingBag, FiUsers, FiCalendar, FiLogOut, FiMenu, FiUser, FiStar, FiBarChart2 } from 'react-icons/fi';
 import { useAuth } from '../context/AuthContext';
 import { useState } from 'react';
 
@@ -27,6 +27,7 @@ const AdminLayout = () => {
     { path: '/admin/bookings', name: 'Bookings', icon: <FiCalendar className="me-2" /> },
     { path: '/admin/users', name: 'Users', icon: <FiUsers className="me-2" /> },
     { path: '/admin/reviews', name: 'Reviews', icon: <FiStar className="me-2" /> },
+    { path: '/admin/reports', name: 'Reports', icon: <FiBarChart2 className="me-2" /> },
     { path: '/profile', name: 'My Profile', icon: <FiUser className="me-2" /> },
   ];
 
