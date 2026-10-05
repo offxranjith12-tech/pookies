@@ -1,0 +1,31 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="grad13" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#5ee7df;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#b490ca;stop-opacity:1" />
+      </linearGradient>
+      <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.15" />
+      </filter>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#grad13)" />
+    
+    <!-- Decorative cosmetic shape (circle/bottle/compact abstract) -->
+    <circle cx="200" cy="180" r="80" fill="#ffffff" fill-opacity="0.2" filter="url(#shadow)" />
+    <circle cx="200" cy="180" r="70" fill="#ffffff" fill-opacity="0.9" />
+    
+    <!-- Icon representing brand letter -->
+    <text x="200" y="210" font-family="Arial, sans-serif" font-size="70" font-weight="bold" fill="#5ee7df" text-anchor="middle">
+      B
+    </text>
+    
+    <!-- Brand -->
+    <text x="200" y="320" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2">
+      BEAUTY COLLECTION
+    </text>
+    
+    <!-- Product Name -->
+    <text x="200" y="350" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333333" text-anchor="middle">
+      The 11
+    </text>
+  </svg>
